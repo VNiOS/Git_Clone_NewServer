@@ -7,6 +7,7 @@
 //
 
 #import "WDAppDelegate.h"
+#import "LoginViewController.h"
 
 @implementation WDAppDelegate
 
@@ -15,6 +16,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    LoginViewController *loginController = [[LoginViewController alloc] init];
+    [self.window addSubview:loginController.view];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
