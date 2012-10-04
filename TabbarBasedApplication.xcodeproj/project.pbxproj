@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB041623161DA1AC00B4DC8D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB041622161DA1AC00B4DC8D /* LoginViewController.xib */; };
 		AB07793C161C2BD600D3CA85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB07793B161C2BD600D3CA85 /* UIKit.framework */; };
 		AB07793E161C2BD600D3CA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB07793D161C2BD600D3CA85 /* Foundation.framework */; };
 		AB077940161C2BD600D3CA85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB07793F161C2BD600D3CA85 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB041622161DA1AC00B4DC8D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		AB077937161C2BD600D3CA85 /* TabbarBasedApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarBasedApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB07793B161C2BD600D3CA85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB07793D161C2BD600D3CA85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,8 +89,8 @@
 				AB077959161C2C5400D3CA85 /* TABViewController.m */,
 				AB077956161C2C2B00D3CA85 /* CCTabbarController.m */,
 				AB077955161C2C2B00D3CA85 /* CCTabbarController.h */,
-				AB07794B161C2BD600D3CA85 /* WDAppDelegate.m */,
 				AB07794A161C2BD600D3CA85 /* WDAppDelegate.h */,
+				AB07794B161C2BD600D3CA85 /* WDAppDelegate.m */,
 				AB077942161C2BD600D3CA85 /* Supporting Files */,
 			);
 			path = TabbarBasedApplication;
@@ -97,6 +99,7 @@
 		AB077942161C2BD600D3CA85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB041622161DA1AC00B4DC8D /* LoginViewController.xib */,
 				AB077943161C2BD600D3CA85 /* TabbarBasedApplication-Info.plist */,
 				AB077944161C2BD600D3CA85 /* InfoPlist.strings */,
 				AB077947161C2BD600D3CA85 /* main.m */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB077946161C2BD600D3CA85 /* InfoPlist.strings in Resources */,
+				AB041623161DA1AC00B4DC8D /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +280,7 @@
 				AB077951161C2BD600D3CA85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
