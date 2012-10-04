@@ -12,14 +12,16 @@
 @implementation WDAppDelegate
 
 @synthesize window = _window;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    LoginViewController *loginController = [[LoginViewController alloc] init];
-    [self.window addSubview:loginController.view];
+//    [self.window addSubview:loginController.view];
     // Override point for customization after application launch.
+    LoginViewController *loginController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+//    [self.window addSubview:loginController.view];
+    self.window.rootViewController = loginController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

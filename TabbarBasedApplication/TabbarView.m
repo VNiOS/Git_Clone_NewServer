@@ -1,14 +1,14 @@
 //
-//  LoginViewController.m
+//  TabbarView.m
 //  TabbarBasedApplication
 //
-//  Created by SV01 on 10/4/12.
+//  Created by SV01 on 10/3/12.
 //  Copyright (c) 2012 ICCOM. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "TabbarView.h"
 
-@implementation LoginViewController
+@implementation TabbarView
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
